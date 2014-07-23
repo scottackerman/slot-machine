@@ -1,0 +1,16 @@
+body { background: #000; font-size: 150%; font-weight: bold; text-align:center; text-indent: -9999px; }
+
+.slotMachine { background: url(../images/slot_bg.png); height: 292px; margin: auto; width: 852px; }
+.button { background: url(../images/slots_sprite.png); background-position: 0px -600px; cursor: pointer; float: left; height: 175px; margin: 18px 12px 0 0; width: 180px; }
+.slots { padding: 37px 0 0 44px }
+.slot { background-color: #fff; float: left; height: 212px; margin-right: 18px; overflow: hidden; position: relative; width: 178px; }
+.icons { padding: 48px 0 0 30px; position: absolute; width: 120px; }
+.blueIcon, .blackIcon, .orangeIcon { background: url(../images/slots_sprite.png); height: 120px; margin-bottom: 40px; overflow: hidden; width: 120px; }
+.blueIcon { background-position: 0px -220px; }
+.blackIcon { background-position: 0px -351px; }
+.orangeIcon { background-position: 0px -480px; }
+.glass { background: url(../images/slots_sprite.png); height: 212px; left: 0px; position: absolute; top: 0px; width: 178px; }
+
+.modal { height: 292px; position: absolute; top: 0px; visibility: hidden; width: 852px; z-index: 1000; }
+.modalBg { height: 100%; left: 0px; top: 0px; width: 100%; }
+.modalMessage { background-color: #fff; border:1px solid #000; left: 276px; padding:15px; position: absolute; text-indent: 0; top: 80px; width:300px; }
